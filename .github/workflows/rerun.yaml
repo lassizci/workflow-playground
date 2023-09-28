@@ -16,7 +16,7 @@ jobs:
 
   final:
     needs:
-      - quick-failing
+      - quick-random-failing
       - long-running
     runs-on: ubuntu-latest
     steps:
